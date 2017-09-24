@@ -4,6 +4,5 @@ services:
     build: ./backend
     ports:
       - "9000:8000"
-      - "2022:22"
     volumes:
       - ../.:/app
