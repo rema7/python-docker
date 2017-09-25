@@ -1,6 +1,8 @@
+from datetime import datetime
 
 class RestResource:
     def on_get(self, _, resp):
         resp.body = {
-            'result': 'Test rest method',
+            'result': 'Wow! Resul!:)',
+            'timestamp': datetime.utcnow(),
         }
