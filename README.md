@@ -1,4 +1,6 @@
-# Microservice with python
+# Microservice with python v1.0
+This is just a simple python web service comprised only one REST method.
+
 ## Quickstart via docker
 ```
 $ cd ./docker
